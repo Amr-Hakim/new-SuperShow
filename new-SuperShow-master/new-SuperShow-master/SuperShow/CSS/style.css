@@ -1,0 +1,680 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.container{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+  width: 100%;
+}
+
+/* ******** The Nav Starts Here *********** */
+nav{
+  width: 100%;
+  height: 60px;
+  margin: 0;
+}
+a:hover{
+  color: blue;
+}
+
+ul{
+  list-style-type: none;
+  float: left;
+  width: 50%;
+}
+
+li{
+  float: left;
+  padding: 15px 10px 15px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.current{
+  /* color: rgb(136, 136, 253); */
+  color: #406546;
+}
+
+nav div{
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+}
+
+nav div input{
+  padding: 10px 10px 10px 12px;
+  margin-right: 2%;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 25%;
+  float: left;
+}
+
+nav div button{
+  padding: 10px;
+  width: 90px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  float: left;
+}
+
+/* ****** The Nav Ends Here ************ */
+
+.text{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+}
+/* **** The Second Page PRODUCTS starts Here ******* */
+
+#products{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.items{
+  width: 100%;
+  height: 100%;
+}
+#item{
+  float: left;
+  margin: 1% 1.5%;
+  width: 380px;
+  height: 250px;
+  border: 2px solid blue;
+  border-radius: 2px;
+}
+
+.item1{
+  background: url('../Images/2008-bmw-m1-hommage-23.jpg') 100%;
+  background-size: cover;
+}
+.item2{
+  background: url('../Images/car1.jpg') 100%;
+  background-size: cover;
+}
+.item3{
+  background: url('../Images/car2.jpeg') 100%;
+  background-size: cover;
+}
+.item4{
+  background: url('../Images/car7.jpg') 100%;
+  background-size: cover;
+}
+.item5{
+  background: url('../Images/car6.jpg') 100%;
+  background-size: cover;
+}
+.item6{
+  background: url('../Images/car7.jpeg') 100%;
+  background-size: cover;
+}
+
+
+
+/* *********  The Second Page PRODUCTS Ends Here  ********* */
+
+/* ************ The Third Page BMW Starts Here ************ */
+
+#BMW{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.bmw-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 85px;
+}
+.bmw-item:hover{
+  cursor: pointer;
+}
+.bmw-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.bmw-item h4{
+  color: blue;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.bmw-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.bmw-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+/* ********************** */
+/* ************ The Forth Page Chevrolet Starts Here ************ */
+#Chevrolet{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.chevrolet-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 85px;
+}
+.chevrolet-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.chevrolet-item h4{
+  color: blue;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.chevrolet-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.chevrolet-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/* ************************** */
+/* ********** The Fifth Page MERCEDES Starts Here **************** */
+#Mercedes{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.mercedes-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 85px;
+}
+.mercedes-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.mercedes-item h4{
+  color: blue;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.mercedes-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.mercedes-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ****************************** */
+/* ********** The Sixth Page BUGATTI Starts Here **************** */
+#Bugatti{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.bugatti-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 85px;
+}
+.bugatti-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.bugatti-item h4{
+  color: blue;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.bugatti-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.bugatti-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ******************** */
+/* ********** The Seventh Page FERRARI Starts Here **************** */
+#Ferrari{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.ferrari-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 85px;
+}
+.ferrari-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.ferrari-item h4{
+  color: blue;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.ferrari-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.ferrari-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ************************** */
+/* ********** The Eighth Page ASTON Starts Here **************** */
+#Aston-Martin{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+}
+
+.aston-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 85px;
+}
+.aston-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.aston-item h4{
+  color: blue;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.aston-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.aston-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+/* *************** */
+/* *********** The Login page style Starts HERE ***************** */
+.card-body{
+  width: 30%;
+  border: 2px solid grey;
+  margin-left: 30%;
+  margin-top: 40px;
+  line-height: 50px;
+}
+.card-body a{
+  color: white;
+}
+.card-body a:hover{
+  color: rgb(0, 44, 6);
+  font-size: 20px;
+}
+.card-title{
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+.card-text{
+  color: white;
+  text-align: center;
+}
+.form-control{
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  opacity: 0.8;
+}
+.row{
+  text-align: center;
+}
+.row div{
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+form button{
+  width:100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(0, 12, 24);
+  color: white;
+  opacity: 0.8;
+}
+
+.form-check{
+  width:90%;
+  margin-left: 50px;
+}
+.form-check-label{
+  color: white;
+}
+
+/* ************ The Login Page Style Ends Here ****************** */
+/* ************* Contact Us Page style starts here ************* */
+.contactUs-container{
+  background: url('../Images/cq5dam.resized.img.1680.large.time1519898857693.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.address{
+  float: left;
+  color: #406546;
+  width: 33%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.address img{
+  float: left;
+}
+.facebook{
+  float: left;
+  margin-top: 15px;
+}
+.linkdin{
+  float: left;
+  margin-top: 15px;
+}
+.address-facebook{
+  width: 100%;
+  float: left;
+}
+.address-linkdin{
+  width: 100%;
+  float: left;
+}
+.address h3{
+  text-align: left;
+}
+
+/* ********* Popup JS ********************** */
+
+.abc {
+  width:100%;
+  height:100%;
+  opacity:.95;
+  top:0;
+  left:0;
+  display:none;
+  position:fixed;
+  background-color:#313131;
+  overflow:auto
+  }
+  img#close {
+  position:absolute;
+  right:0px;
+  top:0px;
+  cursor:pointer
+  }
+  div#popupContact {
+    position:absolute;
+    left:35%;
+    top:5%;
+    margin-left:-202px;
+    font-family:'Raleway',sans-serif
+    }
+    #form {
+    max-width:932px;
+    min-width:250px;
+    padding:10px 50px;
+    border:2px solid gray;
+    border-radius:10px;
+    font-family:raleway;
+    background-color:#fff
+    }
+    #image{
+      width: 100%;
+    }
+    #popup_div{
+      float: left;
+      width: 100%
+    }
+    #popup_div h1{
+      float: left
+    }
+    #popup_div b{
+      float: right;
+    }
+    #popup_div input{
+      width: 50%;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      float: left
+    }
+    #form textarea{
+      width: 100%;
+      margin-top: 5px;
+      padding: 5px;
+      border-radius: 5px
+    }
+    #form input{
+      width: 100%;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 5px
+    }
+/* ******************** */
+@media only screen and (min-width: 1300px){
+
+.container{
+  height: 970px;
+}
+#products{
+  height: 970px;
+}
+/* #products nav{
+  display: none;
+} */
+.item-detail{
+  height: 970px;
+}
+/* .item-detail nav{
+  display: none;
+} */
+#BMW{
+  height: 970px;
+}
+#Chevrolet{
+  height: 970px;
+}
+#Mercedes{
+  height: 970px;
+}
+#Ferrari{
+  height: 970px;
+}
+#Bugatti{
+  height: 970px;
+}
+#Aston-Martin{
+  height: 970px;
+}
+#item{
+  margin-left: 175px;
+  margin-top: 125px;
+  border: 1px solid green;
+}
+#item:hover{
+  color: orange;
+  border: 1px solid white;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1300px){
+  nav div{
+    width: 46%;
+  }
+  #item{
+    width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px){
+  nav div{
+    width: 60%;
+  }
+  ul{
+    width: 35%;
+  }
+  li{
+    padding: 10px 0 15px 10px;
+  }
+  #item{
+    width: 220px;
+  }
+
+}
+@media only screen and (max-width: 765px){
+  ul{
+    width: 45%;
+  }
+  li{
+    padding: 10px 0 15px 5px;
+  }
+  nav div{
+    width: 50%;
+  }
+
+  nav div input{
+    width: 135px;
+    padding: 7px 0 7px 5px;
+  }
+  nav div button{
+    width: 58px;
+    padding: 7px 0;
+  }
+  #item{
+    width: 165px;
+  }
+}

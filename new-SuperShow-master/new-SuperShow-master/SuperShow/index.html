@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <title>SuperShow</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ************* The Nav Starts Here ****************** -->
+    <nav>
+      <ul>
+        <li><a class="current" href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+        <p id="demo" style="color: beige;float:left;padding: 10px 0 10px 10px;"></p>
+      </div>
+    </nav>
+
+   <!-- ***************** The Nav Ends Here ********************** -->
+
+    <div class="text">
+      <h3>SuperShow</h3>
+      <p>The best way to investment</p>
+    </div>
+  </div>
+  <!-- ************* The Second Page PRODUCTS Starts Here ************** -->
+
+  <div id="products">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a class="current" href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="items">
+
+      <a class="ggg" href="#BMW">
+        <div id="item" class="item1">
+          <h1>BMW</h1>
+        </div>
+      </a>
+      <a href="#Chevrolet">
+        <div id="item" class="item2">
+          <h1>Chevrolet</h1>
+        </div>
+      </a>
+      <a href="#Mercedes">
+        <div id="item" class="item3">
+          <h1>Mercedes</h1>
+        </div>
+      </a>
+      <a href="#Bugatti">
+        <div id="item" class="item4">
+          <h1>Bugatti</h1>
+        </div>
+      </a>
+      <a class="ferrari" href="#Ferrari">
+        <div id="item" class="item5">
+          <h1>Ferrari</h1>
+        </div>
+      </a>
+      <a href="#Aston-Martin">
+        <div id="item" class="item6">
+          <h1>Aston Martin</h1>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ************************ -->
+    <!-- ************* The Third Page BMW Starts Here ************** -->
+
+
+  <div id="BMW" class="item-detail">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="bmw-container">
+      <div class="bmw-item" onclick="div_show_BMW1()">
+        <img class="bmw-item-img" src="Images/bmw-i8.jpg" alt="bmw-item image">
+        <h4>BMW i8</h4>
+      </div>
+<!-- **************** The First sample for Popup *************** -->
+
+<div id="BMW1" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW1()">
+  <img src="Images/bmw-i8.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+
+
+
+
+      <div class="bmw-item" onclick ="div_show_BMW2()">
+        <img class="bmw-item-img" src="Images/z4.png" alt="bmw-item image">
+        <h4>BMW m3</h4>
+      </div>
+      <!-- **************** The second sample for Popup *************** -->
+
+<div id="BMW2" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW2()">
+  <img src="Images/z4.png" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+      <div class="bmw-item" onclick ="div_show_BMW3()">
+        <img class="bmw-item-img" src="Images/7series.jpg" alt="bmw-item image">
+        <h4>BMW i5</h4>
+      </div>
+
+      <!-- **************** The Third sample for Popup *************** -->
+
+<div id="BMW3" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW3()">
+  <img src="Images/7series.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+      
+      <div class="bmw-item" onclick ="div_show_BMW4()">
+        <img class="bmw-item-img" src="Images/BMW z4.jpg" alt="bmw-item image">
+        <h4>BMW z4</h4>
+      </div>
+
+       <!-- **************** The Fourth sample for Popup *************** -->
+
+<div id="BMW4" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW4()">
+  <img src="Images/BMW z4.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+      <div class="bmw-item" onclick ="div_show_BMW5()">
+        <img class="bmw-item-img" src="Images/BMW 750Li.jpg" alt="bmw-item image">
+        <h4>BMW 750Li</h4>
+      </div>
+    <!-- **************** The Third sample for Popup *************** -->
+
+<div id="BMW5" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW5()">
+  <img src="Images/BMW 750Li.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+
+      
+      <div class="bmw-item"  onclick ="div_show_BMW6()">
+        <img class="bmw-item-img" src="Images/BMW-3-Series-Exterior-167583.jpg" alt="bmw-item image">
+        <h4>BMW 3S</h4>
+      </div>
+
+      <!-- **************** The Sixth sample for Popup *************** -->
+
+<div id="BMW6" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW6()">
+  <img src="Images/BMW-3-Series-Exterior-167583.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+      <div class="bmw-item" onclick ="div_show_BMW7()">
+        <img class="bmw-item-img" src="Images/background-car.jpg" alt="bmw-item image">
+        <h4>BMW 6S</h4>
+      </div>
+      <!-- **************** The Seventh sample for Popup *************** -->
+
+<div id="BMW7" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW7()">
+  <img src="Images/background-car.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+      <div class="bmw-item"  onclick ="div_show_BMW8()">
+        <img class="bmw-item-img" src="Images/2008-bmw-m1-hommage-23.jpg" alt="bmw-item image">
+        <h4>BMW m1</h4>
+      </div>
+      <!-- **************** The Eighth sample for Popup *************** -->
+
+<div id="BMW8" class="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/close.png" onclick ="div_hide_BMW8()">
+  <img src="Images/2008-bmw-m1-hommage-23.jpg" alt="bmw-item image" id="image">
+  <div id="popup_div">
+    <h1>BMW i8</h1>
+    <b>123,529&dollar;</b>
+  </div>
+  <p>BMW is always committed to your driving pleasure throughout your journey with us. That’s why some components and functions need to be inspected and updated from time to time just so your BMW performs to its fullest potential. On this page, you can determine if any of your vehicle functions qualify for an active technical improvement.</p>
+  <h2>Contact Us </h2>
+  <p>Stay informed about news, special offers, event information and more from BMW by opting into to receive electronic communications.</p>
+  <div id="popup_div">
+    <input id="name" name="name" placeholder="Name" type="text">
+    <input id="email" name="email" placeholder="Email" type="text">
+  </div>
+    <textarea id="msg" name="message" placeholder="Message"></textarea>
+    <input id="name" name="name" type="submit" value="Send" onclick="check_empty()">
+
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+
+  <!-- ************************************************* -->
+    </div>
+  </div>
+
+<!-- ******************************** -->
+  <!-- ************* The Fourth Page CHEVROLET Starts Here ************** -->
+
+
+  <div id="Chevrolet" class="item-detail">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="chevrolet-container">
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-c8.jpg" alt="chevrolet-item image">
+        <h4>chevrolet c8</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-camaro.jpg" alt="chevrolet-item image">
+        <h4>chevrolet camaro</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-corvette.jpg" alt="chevrolet-item image">
+        <h4>corvette</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-malibu.jpg" alt="chevrolet-item image">
+        <h4>chevrolet malibu</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-mid-ingined.jpg" alt="chevrolet-item image">
+        <h4>Mid ingined</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-Traverse.jpg" alt="chevrolet-item image">
+        <h4>Traverse</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-chevy.jpg" alt="chevrolet-item image">
+        <h4>chevrolet</h4>
+      </div>
+      <div class="chevrolet-item">
+        <img class="chevrolet-item-img" src="Images/chevrolet-chevy2.jpg" alt="chevrolet-item image">
+        <h4>Silverado</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- ************************************* -->
+    <!-- ************* The Fifth Page MERCEDES Starts Here ************** -->
+
+  <div id="Mercedes" class="item-detail">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="mercedes-container">
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/mercedes-AMG.jpg" alt="mercedes-item image">
+        <h4>Mercedes AMG</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/mercedes-autowise.jpg" alt="mercedes-item image">
+        <h4>Mercedes Autowise</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/mercedes-CLA250.jpg" alt="mercedes-item image">
+        <h4>Mercedes CLA250</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/Mercedes-EQA.jpg" alt="mercedes-item image">
+        <h4>Mercedes EQA</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/mercedes-EQC.jpg" alt="mercedes-item image">
+        <h4>Mercedes EQC</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/Mercedes-GLE.jpg" alt="mercedes-item image">
+        <h4>Mercedes GLE</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/mercedes-S-class.jpg" alt="mercedes-item image">
+        <h4>Mercedes S-Class</h4>
+      </div>
+      <div class="mercedes-item">
+        <img class="mercedes-item-img" src="Images/mercedes-tasarimi.jpg" alt="mercedes-item image">
+        <h4>Mercedes Tasarimi</h4>
+      </div>
+    </div>
+  </div>
+  <!-- **************************************** -->
+    <!-- ************* The Sixth Page BUGATTI Starts Here ************** -->
+
+  <div id="Bugatti" class="item-detail">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="bugatti-container">
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Centodieci.jpg" alt="bugatti-item image">
+        <h4>Centodieci</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Centodieci2.jpg" alt="bugatti-item image">
+        <h4>Bugatti</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Chiron.jpg" alt="bugatti-item image">
+        <h4>Chiron</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Divo.jpg" alt="bugatti-item image">
+        <h4>Bugatti Divo</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Galibier.jpg" alt="bugatti-item image">
+        <h4>Galibier</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Gran.jpg" alt="bugatti-item image">
+        <h4>Bugatti Gran</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Reverse.jpg" alt="bugatti-item image">
+        <h4>Bugatti Reverse</h4>
+      </div>
+      <div class="bugatti-item">
+        <img class="bugatti-item-img" src="Images/bugatti-Voiture.jpg" alt="bugatti-item image">
+        <h4>Bugatti Voiture</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- ****************************** -->
+    <!-- ************* The Seventh Page FERRARI Starts Here ************** -->
+
+  <div id="Ferrari" class="item-detail">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="ferrari-container">
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-4s.jpg" alt="ferrari-item image">
+        <h4>Ferrari 4S</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-Auto Express.jpg" alt="ferrari-item image">
+        <h4>Auto Express</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-c8.jpg" alt="ferrari-item image">
+        <h4>Ferrari C8</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-F8.jpg" alt="ferrari-item image">
+        <h4>Ferrari F8</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-geneva.jpg" alt="ferrari-item image">
+        <h4>Geneva</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-GTO.jpg" alt="ferrari-item image">
+        <h4>Ferrari GTO</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-mintauro.jpg" alt="ferrari-item image">
+        <h4>Mintauro</h4>
+      </div>
+      <div class="ferrari-item">
+        <img class="ferrari-item-img" src="Images/ferrari-preco.jpg" alt="ferrari-item image">
+        <h4>Ferrari Preco</h4>
+      </div>
+    </div>
+  </div>
+  <!-- ********************************* -->
+    <!-- ************* The Eighth Page Aston-Martin Starts Here ************** -->
+
+  <div id="Aston-Martin" class="item-detail">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <input type="text" placeholder="Search with car type">
+        <button>Search</button>
+      </div>
+    </nav>
+    <div class="aston-container">
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-22.jpg" alt="aston-item image">
+        <h4>Aston 2020</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-AM-RB.jpg" alt="aston-item image">
+        <h4>Aston AM-RB</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-DB11.jpg" alt="aston-item image">
+        <h4>Aston DB11</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-DBS.jpg" alt="aston-item image">
+        <h4>Aston DBS</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-V8.jpg" alt="aston-item image">
+        <h4>Aston V8</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-Valhalla.jpg" alt="aston-item image">
+        <h4>Aston Valhalla</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-Vanquish.jpg" alt="aston-item image">
+        <h4>Aston Vanquish</h4>
+      </div>
+      <div class="aston-item">
+        <img class="aston-item-img" src="Images/Aston-Vantage.jpg" alt="aston-item image">
+        <h4>Aston Vantage</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+let myVar = setInterval(myTimer, 1000);
+function myTimer(){
+  let day = new Date();
+  let time = day.toLocaleTimeString();
+  document.getElementById('demo').innerHTML = time;
+}
+// Validating Empty Field
+function check_empty() {
+if (document.getElementById('name').value == "" || 
+document.getElementById('email').value == ""){
+
+alert("Fill All Fields !");
+} else {
+document.getElementById('form').submit();
+alert("Form Submitted Successfully...");
+//window.open('','_blank');
+}
+}
+
+//Function To Display Popup
+function div_show_BMW1() {
+document.getElementById('BMW1').style.display = "block";
+}
+//Function to Hide Popup
+
+function div_hide_BMW1(){
+document.getElementById('BMW1').style.display = "none";
+}
+
+
+// *************
+function div_show_BMW2() {
+document.getElementById('BMW2').style.display = "block";
+}
+function div_hide_BMW2(){
+document.getElementById('BMW2').style.display = "none";
+}
+function div_show_BMW3() {
+document.getElementById('BMW3').style.display = "block";
+}
+function div_hide_BMW3(){
+document.getElementById('BMW3').style.display = "none";
+}
+function div_show_BMW4() {
+document.getElementById('BMW4').style.display = "block";
+}
+function div_hide_BMW4(){
+document.getElementById('BMW4').style.display = "none";
+}
+function div_show_BMW5() {
+document.getElementById('BMW5').style.display = "block";
+}
+function div_hide_BMW5(){
+document.getElementById('BMW5').style.display = "none";
+}
+function div_show_BMW6() {
+document.getElementById('BMW6').style.display = "block";
+}
+function div_hide_BMW6(){
+document.getElementById('BMW6').style.display = "none";
+}
+function div_show_BMW7() {
+document.getElementById('BMW7').style.display = "block";
+}
+function div_hide_BMW7(){
+document.getElementById('BMW7').style.display = "none";
+}
+function div_show_BMW8() {
+document.getElementById('BMW8').style.display = "block";
+}
+function div_hide_BMW8(){
+document.getElementById('BMW8').style.display = "none";
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
+
+
